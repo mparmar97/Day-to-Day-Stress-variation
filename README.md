@@ -1,0 +1,5 @@
+Developed a Python-based data analysis pipeline to examine day-to-day physiological stress variation among caregivers using Oura Ring HRV data and caregiving activity variables. The project focused on understanding how daily caregiving exposure relates to changes in heart rate variability, which was represented using standardized HRV values such as Z_HRV.
+
+The analysis used caregiving-related predictors such as daily caregiving status, dementia caregiving, non-dementia caregiving, and combined caregiving hours. The dataset included participant-level repeated daily observations, with columns such as participant ID, day, HRV, previous-day HRV, dementia caregiving hours, non-dementia caregiving hours, and total caregiving hours.
+
+The notebook separates caregiving effects into within-person and between-person components. For example, it analyzes variables such as Daily_Caregiving_Dicho_W for within-person variation and Daily_Caregiving_Dicho_B for between-person variation, then uses linear regression to evaluate associations with Z_HRV.
